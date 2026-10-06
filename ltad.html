@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Bina Satria Pacitan - Angkat Besi</title>
+
+        <!-- CSS FILES -->                
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-tiya-golf-club.css" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet">
+        
+<!--
+
+TemplateMo 587 Tiya Golf Club
+
+https://templatemo.com/tm-587-tiya-golf-club
+
+-->
+
+<style>
+    .site-footers {
+        background-color: black;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        width: 100%;
+    }
+    /* * {
+    outline: 1px solid red;
+  } */
+
+</style>
+    </head>
+    
+    <body>
+
+        <main>
+
+            <nav class="navbar navbar-expand-lg">                
+                <div class="container">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <!-- <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Tiya Golf Club"> -->
+                        <span class="navbar-brand-text">
+                            BINA SATRIA
+                            <small>Angkat Besi Pacitan</small>
+                        </span>
+                    </a>
+
+                    <div class="d-lg-none ms-auto me-3">
+                        <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Member Login</a>
+                    </div>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="index.html">Home</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">News</a>
+                            </li>
+
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+
+                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="event-listing.html">Event Listing</a></li>
+
+                                    <li><a class="dropdown-item" href="event-detail.html">Event Detail</a></li>
+                                </ul>
+                            </li> -->
+                        </ul>
+
+                        <div class="d-none d-lg-block ms-lg-3">
+                            <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#" role="button" >Member Login</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">                
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Member Login</h5>
+                    
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                
+                <div class="offcanvas-body d-flex flex-column">
+                    <form class="custom-form member-login-form" action="#" method="post" role="form">
+
+                        <div class="member-login-form-body">
+                            <div class="mb-4">
+                                <label class="form-label mb-2" for="member-login-number">Membership No.</label>
+
+                                <input type="text" name="member-login-number" id="member-login-number" class="form-control" placeholder="11002560" required>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="form-label mb-2" for="member-login-password">Password</label>
+
+                                <input type="password" name="member-login-password" id="member-login-password" pattern="[0-9a-zA-Z]{4,10}" class="form-control" placeholder="Password" required="">
+                            </div>
+
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Remember me
+                                </label>
+                            </div>
+
+                            <div class="col-lg-5 col-md-7 col-8 mx-auto">
+                                <button type="submit" class="form-control">Login</button>
+                            </div>
+
+                            <div class="text-center my-4">
+                                <a href="#">Forgotten password?</a>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="mt-auto mb-5">
+                        <p>
+                            <strong class="text-white me-3">Any Questions?</strong>
+
+                            <a href="tel: 010-020-0340" class="contact-link">
+                            	010-020-0340
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3D405B" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+            </div>
+            
+
+            <section class="hero-section hero-50 d-flex justify-content-center align-items-center" id="section_1">
+
+                <div class="section-overlay"></div>
+
+                <svg viewBox="0 0 1962 178" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#3D405B" d="M 0 114 C 118.5 114 118.5 167 237 167 L 237 167 L 237 0 L 0 0 Z" stroke-width="0"></path> <path fill="#3D405B" d="M 236 167 C 373 167 373 128 510 128 L 510 128 L 510 0 L 236 0 Z" stroke-width="0"></path> <path fill="#3D405B" d="M 509 128 C 607 128 607 153 705 153 L 705 153 L 705 0 L 509 0 Z" stroke-width="0"></path><path fill="#3D405B" d="M 704 153 C 812 153 812 113 920 113 L 920 113 L 920 0 L 704 0 Z" stroke-width="0"></path><path fill="#3D405B" d="M 919 113 C 1048.5 113 1048.5 148 1178 148 L 1178 148 L 1178 0 L 919 0 Z" stroke-width="0"></path><path fill="#3D405B" d="M 1177 148 C 1359.5 148 1359.5 129 1542 129 L 1542 129 L 1542 0 L 1177 0 Z" stroke-width="0"></path><path fill="#3D405B" d="M 1541 129 C 1751.5 129 1751.5 138 1962 138 L 1962 138 L 1962 0 L 1541 0 Z" stroke-width="0"></path></svg>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12 d-flex align-items-center justify-content-center">
+
+                            <h1 class="text-white mb-4 pb-2">LONG TERM ATHLETE DEVELOPMENT (LTAD)</h1>
+
+                            <!-- <a href="#section_3" class="btn custom-btn smoothscroll me-3">Explore Events</a> -->
+                        </div>
+                        <div class="col-lg-6 col-12 d-flex justify-content-center">
+                            <div class="ratio ratio-16x9" style="max-width: 480px; width: 100%;">
+                                <img src="images/latihan2.jpg" class="img-fluid rounded" alt="Latihan">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <svg viewBox="0 0 1962 178" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#ffffff" d="M 0 114 C 118.5 114 118.5 167 237 167 L 237 167 L 237 0 L 0 0 Z" stroke-width="0"></path> <path fill="#ffffff" d="M 236 167 C 373 167 373 128 510 128 L 510 128 L 510 0 L 236 0 Z" stroke-width="0"></path> <path fill="#ffffff" d="M 509 128 C 607 128 607 153 705 153 L 705 153 L 705 0 L 509 0 Z" stroke-width="0"></path><path fill="#ffffff" d="M 704 153 C 812 153 812 113 920 113 L 920 113 L 920 0 L 704 0 Z" stroke-width="0"></path><path fill="#ffffff" d="M 919 113 C 1048.5 113 1048.5 148 1178 148 L 1178 148 L 1178 0 L 919 0 Z" stroke-width="0"></path><path fill="#ffffff" d="M 1177 148 C 1359.5 148 1359.5 129 1542 129 L 1542 129 L 1542 0 L 1177 0 Z" stroke-width="0"></path><path fill="#ffffff" d="M 1541 129 C 1751.5 129 1751.5 138 1962 138 L 1962 138 L 1962 0 L 1541 0 Z" stroke-width="0"></path></svg>
+            </section>
+
+
+            <section class="about-section section-padding" id="section_2">
+                <div class="container mt-5">
+                  <div class="row">
+
+                    <!-- Judul di atas, full width -->
+                    <div class="col-lg-12 col-12 text-center">
+                      <h2 class="mb-lg-5 mb-4">CLUB ANGKAT BESI BINA SATRIA PACITAN</h2>
+                    </div>
+              
+                    <!-- Kolom teks pendahuluan -->
+                    <div class="col-lg-6 col-12 mb-4 mb-lg-0 pe-lg-4">
+                      <h3 class="mb-3"><strong>Pendahuluan</strong></h3>
+                      <p style="text-align: justify;">
+                        Dalam dunia olahraga, sering kali kita melihat atlet-atlet muda yang menunjukkan potensi besar tetapi gagal mencapai puncak karir mereka. Salah satu penyebab utama adalah pendekatan pelatihan yang tidak terstruktur dan kurang memperhatikan tahapan perkembangan yang sesuai dengan usia dan kemampuan atlet. Konsep LTAD dikembangkan untuk mengatasi masalah ini, dengan memberikan panduan yang sistematis dan berkelanjutan.
+                      </p>
+                    </div>
+              
+                    <!-- Kolom gambar di samping teks -->
+                    <div class="col-lg-6 col-12 ps-lg-4">
+                      <div class="member-block">
+                        <div class="member-block-image-wrap">
+                          <img src="/images/latihan.jpeg" class="member-block-image img-fluid" alt="Gambar latihan">
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+
+            <section class="section-bg-image">
+                <svg viewBox="0 0 1265 144" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(255, 255, 255, 1)" d="M 0 40 C 164 40 164 20 328 20 L 328 20 L 328 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 327 20 C 445.5 20 445.5 89 564 89 L 564 89 L 564 0 L 327 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 563 89 C 724.5 89 724.5 48 886 48 L 886 48 L 886 0 L 563 0 Z" stroke-width="0"></path><path fill="rgba(255, 255, 255, 1)" d="M 885 48 C 1006.5 48 1006.5 67 1128 67 L 1128 67 L 1128 0 L 885 0 Z" stroke-width="0"></path><path fill="rgba(255, 255, 255, 1)" d="M 1127 67 C 1196 67 1196 0 1265 0 L 1265 0 L 1265 0 L 1127 0 Z" stroke-width="0"></path></svg>
+
+                 <!-- Konten tengah -->
+                <div class="container d-flex justify-content-center align-items-center" style="min-height: 300px;">
+                    <div class="container py-5">
+                        <div class="row">
+
+                    <!-- Kolom kiri -->
+                    <div class="col-md-6">
+                        <div class="mb-3 p-3 section-bg-image-block d-flex align-items-center justify-content-center">
+                            <h3><strong>LONG TERM ATHLETE DEVELOPMENT</strong></h3>
+                        </div>
+
+                        <div class="mb-3 p-3 section-bg-image-block">
+                            <h4><strong>Garis besar LTAD :
+                            </strong></h4>
+                            4 tahap pertama dengan perkiraan rentang usia masing-masing, umumnya sesuai untuk semua cabor olahraga sampai ke spesialisasi kecabangan. Dalam tahapan untuk kompetisi dst, rentang usia bervariasi sesuai karakter cabang olahraganya
+                        </div>
+
+                        <div class="mb-3 p-3 section-bg-image-block">
+                            <h4><strong>Faktor kunci yang mempengaruhi LTAD :
+                            </strong></h4>
+                            <ol>
+                                <li>Fundamental</li>
+                                <li>Spesialisasi</li>
+                                <li>Perkembangan Usia</li>
+                                <li>Latihan berkelanjutan</li>
+                                <li>Perkembangan fisik, mental, kognitif, dan emosi</li>
+                                <li>Periodisasi</li>
+                                <li>Kalender rencana kompetisi</li>
+                                <li>Sistem keselarasan dan integrasi</li>
+                                <li>Perbaikan terus menerus</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- Kolom kanan -->
+                    <div class="col-md-6">
+                        <div class="accordion" id="accordionLTAD">
+
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="heading1">
+                                    <button class="accordion-button show d-flex align-items-center gap-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                                        <span class="circle-number">1</span>
+                                        <span>Active Start</span>
+                                    </button>
+                                </h2>
+                                <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionLTAD">
+                                    <div class="accordion-body">
+                                        Males and Females 0-6
+                                        <a href="#section_3" class="btn btn-sm custom-btn ms-2 mt-0">Selengkapnya</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="heading2">
+                                    <button class="accordion-button collapsed d-flex align-items-center gap-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                                        <span class="circle-number">2</span>
+                                        <span>FUNdamentals</span>
+                                    </button>
+                                </h2>
+                                <div id="collapse2" class="accordion-collapse collapse " data-bs-parent="#accordionLTAD">
+                                    <div class="accordion-body">
+                                        Males 6-9, Females 6-8
+                                        <a href="#section_a" class="btn btn-sm custom-btn ms-2 mt-0">Selengkapnya</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="heading3">
+                                    <button class="accordion-button collapsed d-flex align-items-center gap-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                                        <span class="circle-number">3</span>
+                                        <span>Learn to Train</span>
+                                    </button>
+                                </h2>
+                                <div id="collapse3" class="accordion-collapse collapse " data-bs-parent="#accordionLTAD">
+                                    <div class="accordion-body">
+                                        Males 9-12, Females 8-11
+                                        <a href="#section_b" class="btn btn-sm custom-btn ms-2 mt-0">Selengkapnya</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="heading4">
+                                    <button class="accordion-button collapsed d-flex align-items-center gap-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                                        <span class="circle-number">4</span>
+                                        <span>Train to Train</span>
+                                    </button>
+                                </h2>
+                                <div id="collapse4" class="accordion-collapse collapse " data-bs-parent="#accordionLTAD">
+                                    <div class="accordion-body">
+                                        Males 12-16, Females 11-15
+                                        <a href="#section_c" class="btn btn-sm custom-btn ms-2 mt-0">Selengkapnya</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="heading5">
+                                    <button class="accordion-button collapsed d-flex align-items-center gap-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                                        <span class="circle-number">5</span>
+                                        <span>Train to Compete</span>
+                                    </button>
+                                </h2>
+                                <div id="collapse5" class="accordion-collapse collapse " data-bs-parent="#accordionLTAD">
+                                    <div class="accordion-body">
+                                        Males 16-23, Females 15-21
+                                        <a href="#section_d" class="btn btn-sm custom-btn ms-2 mt-0">Selengkapnya</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="heading6">
+                                    <button class="accordion-button collapsed d-flex align-items-center gap-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                                        <span class="circle-number">6</span>
+                                        <span>Train to Win</span>
+                                    </button>
+                                </h2>
+                                <div id="collapse6" class="accordion-collapse collapse " data-bs-parent="#accordionLTAD">
+                                    <div class="accordion-body">
+                                        Professional Stage
+                                        <a href="#section_e" class="btn btn-sm custom-btn ms-2 mt-0">Selengkapnya</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="heading7">
+                                    <button class="accordion-button collapsed d-flex align-items-center gap-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7">
+                                        <span class="circle-number">7</span>
+                                        <span>Active for Life</span>
+                                    </button>
+                                </h2>
+                                <div id="collapse7" class="accordion-collapse collapse " data-bs-parent="#accordionLTAD">
+                                    <div class="accordion-body">
+                                        Any Age
+                                        <a href="#section_f" class="btn btn-sm custom-btn ms-2 mt-0">Selengkapnya</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <svg viewBox="0 0 1265 144" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(255, 255, 255, 1)" d="M 0 40 C 164 40 164 20 328 20 L 328 20 L 328 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 327 20 C 445.5 20 445.5 89 564 89 L 564 89 L 564 0 L 327 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 563 89 C 724.5 89 724.5 48 886 48 L 886 48 L 886 0 L 563 0 Z" stroke-width="0"></path><path fill="rgba(255, 255, 255, 1)" d="M 885 48 C 1006.5 48 1006.5 67 1128 67 L 1128 67 L 1128 0 L 885 0 Z" stroke-width="0"></path><path fill="rgba(255, 255, 255, 1)" d="M 1127 67 C 1196 67 1196 0 1265 0 L 1265 0 L 1265 0 L 1127 0 Z" stroke-width="0"></path></svg>
+            </section>
+
+            <section class="membership-section section-padding mt-5" id="section_3">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center mx-auto mb-lg-4 mb-4">
+                            <h2><strong>Active Start</strong></h2>
+                            <p>Usia Kronologis Pria & Wanita 0-6</p>
+                        </div>
+
+                        <div class="col-lg-12 col-12 mb-3 mb-lg-0">
+
+                            <div class="table-responsive">
+                                <table class="table text-center">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10%;">No</th>
+                                            <th>Keterangan</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="text-start">Menyenangkan dan menjadi bagian kehidupan sehari-hari</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td class="text-start">Membangun kebugaran dan keterampilan gerak</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td class="text-start">Fokus dan belajar Keterampilan gerakan dasar yang tepat seperti berlari, melompat, berputar, menendang, melempar, dan menangkap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td class="text-start">Tidak berdiam selama lebih dari 60 menit kecuali saat tidur</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td class="text-start">Melakukan beberapa aktifitas fisik terorganisir</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td class="text-start">Eksplorasi resiko dan batas lingkungan yang aman</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td class="text-start">Gerakan aktif pada lingkunganny dikombinasikan dengan senam terstruktur dengan baik dan program renang</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td class="text-start">Melakukan aktifitas fisik setiap hari</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+            <section class="membership-section section-padding" id="section_a">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center mx-auto mb-lg-4 mb-4">
+                            <h2><strong>FUNdamental</strong></h2>
+                            <p>Usia Kronologis Pria : 6-9 & Wanita 6-8</p>
+                        </div>
+
+                        <div class="col-lg-12 col-12 mb-3 mb-lg-0">
+
+                            <div class="table-responsive">
+                                <table class="table text-center">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10%;">No</th>
+                                            <th>Keterangan</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="text-start">Seluruh keterampilan gerak</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td class="text-start">Menyenangkan dan partisipasi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td class="text-start">Mengembangkan seluruh bagian</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td class="text-start">Mengembangkan mental, kognitif dan emosional secara terpadu</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td class="text-start">ABCs Training : kelincahan, keseimbangan, kecepatan koordinasi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td class="text-start">ABCs Training : berlari, melompat, berputar dan melempar</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td class="text-start">Memperkenalkan aturan sederhana & etika dalam olahraga</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td class="text-start">Midak ada periodisasi, tapi program tersetruktur</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td class="text-start">Aktivitas fisik sehari-hari</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+            <section class="membership-section section-padding" id="section_b">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center mx-auto mb-lg-4 mb-4">
+                            <h2><strong>LEARNING TO TRAIN</strong></h2>
+                            <p>Usia Kronologis Pria : 9-12 &Wanita 8-11</p>
+                        </div>
+
+                        <div class="col-lg-12 col-12 mb-3 mb-lg-0">
+
+                            <div class="table-responsive">
+                                <table class="table text-center">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10%;">No</th>
+                                            <th>Keterangan</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="text-start">Mengembangkan keterampilan gerak berbagai olahraga</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td class="text-start">Tahap mempelajari keterampilan dasar. Semua keterampilan dasar olahraga harus dipelajari sebelum memasuki Training to Train</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td class="text-start">Mengembangkan mental kognitif yang terintegrasi dan perkembangan emosional</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td class="text-start">Memulai persiapan mental</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td class="text-start">Latihan kekuatan Own Body, Medicine Ball, Swiss Ball</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td class="text-start">Periodisasi Tunggal atau ganda</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td class="text-start">Latihan khusus 3 kali seminggu. Partisipasi dalam olahraga lain 3 kali seminggu</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+            <section class="membership-section section-padding" id="section_c">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center mx-auto mb-lg-4 mb-4">
+                            <h2><strong>TRAINING TO TRAIN</strong></h2>
+                            <p>Usia Kronologis Pria : 12-16 &Wanita 11-15</p>
+                        </div>
+
+                        <div class="col-lg-12 col-12 mb-3 mb-lg-0">
+
+                            <div class="table-responsive">
+                                <table class="table text-center">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10%;">No</th>
+                                            <th>Keterangan</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="text-start">Mengembangkan keterampilan olahraga tertetntu</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td class="text-start">Tahap utama mengembangkan kebugaran: aerobic dan kebugaran. Timbulnya Peak Height Velocity (PVH) yang dapat dijadikan titik referensi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td class="text-start">Mengembangkan mental, kognitif, dan emosional secara terpadu</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td class="text-start">Mengembangkan persiapan mental</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td class="text-start">Memperkenalkan free weight/olypic lifting</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td class="text-start">Mengembangkan kapasitas tambahan</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td class="text-start">Evaluasi musculoskeletas seiring berlangsungnya PHV</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td class="text-start">Seleksi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td class="text-start">Periode Tunggal atau ganda</td>
+                                        </tr>
+                                        <tr>
+                                            <td>10</td>
+                                            <td class="text-start">Latihan olahraga khusus 6-9 kali per minggu termasuk olahraga komplementer</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+            <section class="membership-section section-padding" id="section_d">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center mx-auto mb-lg-4 mb-4">
+                            <h2><strong>TRAINING TO COMPETE</strong></h2>
+                            <p>Usia Kronologis Pria : ± 16-23 & Wanita ± 15-21</p>
+                        </div>
+
+                        <div class="col-lg-12 col-12 mb-3 mb-lg-0">
+
+                            <div class="table-responsive">
+                                <table class="table text-center">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10%;">No</th>
+                                            <th>Keterangan</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="text-start">Physical conditioning, bermain posisi/nomor tertentu</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td class="text-start">Persiapan taktis teknis, bermain posisi/nomor tertentu</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td class="text-start">Keterampilan teknis dan bermain pisisi/nomor tertentu dalam sebuah kompetisi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td class="text-start">Perkembangan mental, kognitif dan emosional secara terpadu</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td class="text-start">Persiapan mental kian berkembang</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td class="text-start">Mengoptimalkan kapasitas tambahan</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td class="text-start">Spesialisasi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td class="text-start">Periodisasi tunggal atau ganda</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td class="text-start">Berlatih teknik, taktis dan kebugaran tertentu, 9-12 kali perminggu
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+            <section class="membership-section section-padding" id="section_e">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center mx-auto mb-lg-4 mb-4">
+                            <h2><strong>TRAINING TO WIN</strong></h2>
+                            <p>Usia Kronologis Pria : ± 19 & Wanita ± 18</p>
+                        </div>
+
+                        <div class="col-lg-12 col-12 mb-3 mb-lg-0">
+
+                            <div class="table-responsive">
+                                <table class="table text-center">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10%;">No</th>
+                                            <th>Keterangan</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="text-start">Usia tersebut berdasarkan data normative internasional untuk olahraga tertentu</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td class="text-start">Pemeliharaan atau perbaikan kemampuan fisik</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td class="text-start">Pengembangan lebih lanjut dari keterampilan teknis, taktis, dan bermain</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td class="text-start">Pengaturan istirahat untuk pencegahan cidera</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td class="text-start">Memaksimalkan kapasitas tambahan</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td class="text-start">Kinerja tinggi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td class="text-start">Tunggal, ganda, dan triple atau beberapa periodisasi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td class="text-start">Berlatih teknis, taktis, dan kebugaran tertentu 9-15 kali perminggu</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+            <section class="membership-section section-padding" id="section_f">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center mx-auto mb-lg-4 mb-4">
+                            <h2><strong>ACTIVE FOR LIVE</strong></h2>
+                            <p>Semua umur</p>
+                        </div>
+
+                        <div class="col-lg-12 col-12 mb-3 mb-lg-0">
+
+                            <div class="table-responsive">
+                                <table class="table text-center">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10%;">No</th>
+                                            <th>Keterangan</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="text-start">Setiap hari maksimum 60 menit melakukan aktivitas sedang atau 30 menit aktivitas yang intens untuk orang dewasa</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td class="text-start">Pindah kepada olahraga yang lain</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td class="text-start">Berpindah dari olahraga yang sangat kompetitif menuju olehraga kompetisi kelompok umur</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td class="text-start">Pindah dari olahraga kompetitif ke kegiatan rekreasi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td class="text-start">Pindah dari atlet menjadi sukarelawan olahraga</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td class="text-start">Gunakan kesempatan lebih baik untuk tetap aktif menjadi pelatih atau berbagi tentang pengetahuan</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+            <section class="custom-section section-padding" id="section_4">
+                <div class="container">
+              
+                <!-- Judul -->
+                <div class="row mb-5 text-center">
+                    <div class="col-12">
+                        <h2><strong>TAHAPAN LATIHAN PADA LEARNING TO TRAIN</strong></h2>
+                    </div>
+                </div>
+  
+                <!-- 6 Konten Zigzag -->
+                <div class="training-steps">
+                 <!-- Step 1 -->
+                <div class="step-box left">
+                    <div class="circle-numbering">1</div>
+                    <div class="step-content">
+                        <h5><strong>Tahap Persiapan</strong></h5>
+                        <p>Pada tahap ini, individu atau tim yang akan melakukan latihan perlu mempersiapkan diri secara fisik dan mental. Ini melibatkan memahami tujuan latihan, memilih metode latihan yang sesuai, dan mempersiapkan peralatan atau fasilitas yang diperlukan.</p>
+                    </div>
+                </div>
+  
+                <!-- Step 2 -->
+                <div class="step-box right">
+                    <div class="circle-numbering">2</div>
+                    <div class="step-content">
+                        <h5><strong>Tahap Lat. Intensif</strong></h5>
+                        <p>Setelah persiapan selesai, individu atau tim dapat mulai melakukan latihan intensif. Latihan ini dilakukan dengan fokus penuh dan upaya maksimal untuk mencapai tujuan yang telah ditetapkan.</p>
+                    </div>
+                </div>
+  
+                <!-- Step 3 -->
+                <div class="step-box left">
+                    <div class="circle-numbering">3</div>
+                    <div class="step-content">
+                        <h5><strong>Tahap Lat. Berulang</strong></h5>
+                        <p>Setelah selesai dengan latihan intensif, individu atau tim perlu melakukan latihan berulang untuk memperkuat pengetahuan dan keterampilan mereka. Ini melibatkan pengulangan teknik dan strategi yang telah dipelajari sebelumnya. </p>
+                    </div>
+                </div>
+  
+                <!-- Step 4 -->
+                <div class="step-box right">
+                    <div class="circle-numbering">4</div>
+                    <div class="step-content">
+                        <h5><strong>Tahap Evaluasi & Pemantauan</strong></h5>
+                        <p>Selama proses pelatihan, penting untuk melakukan evaluasi secara berkala untuk menentukan kemajuan individu atau tim. Evaluasi ini dapat dilakukan melalui observasi langsung, analisis data, atau umpan balik dari mentor atau ahli lainnya.Selama proses pelatihan, penting untuk melakukan evaluasi secara berkala untuk menentukan kemajuan individu atau tim. Evaluasi ini dapat dilakukan melalui observasi langsung, analisis data, atau umpan balik dari mentor atau ahli lainnya.
+                        </p>
+                    </div>
+                </div>
+  
+                <!-- Step 5 -->
+                <div class="step-box left">
+                    <div class="circle-numbering">5</div>
+                    <div class="step-content">
+                        <h5><strong>Tahap Penyesuaian & Perbaikan</strong></h5>
+                        <p>Berdasarkan hasil evaluasi, individu atau tim dapat membuat penyesuaian dalam metode latihannya untuk meningkatkan efektivitasnya. Ini bisa berupa penyesuaian teknik, strategi, atau fokus pada aspek tertentu yang memerlukan perbaikan.</p>
+                    </div>
+                </div>
+  
+                <!-- Step 6 -->
+                <div class="step-box right">
+                    <div class="circle-numbering">6</div>
+                    <div class="step-content">
+                        <h5><strong>Tahap Pemantauan Lanjutan</strong></h5>
+                        <p>Setelah mencapai tingkat keahlian yang diinginkan, penting untuk terus menjaga pemantauan dan pembaruan keterampilan tersebut agar tetap relevan dalam konteks yang berubah-ubah. 
+                    </p>
+                </div>
+                </div>
+                </div>
+              
+                </div>
+              </section>
+
+              <section class="inspirational-section text-white" id="section_5">
+                <div class="container">
+                  <div class="row align-items-center justify-content-center">
+                    
+                    <!-- Gambar -->
+                    <div class="col-lg-6 mb-4 mb-lg-0 ">
+                      <img src="images/3.jpg" alt="Atlet Hebat" class="img-fluid rounded shadow">
+                    </div>
+              
+                    <!-- Kata-kata Mutiara -->
+                    <div class="col-lg-6 text-center text-lg-start">
+                      <h2 class="fw-bold display-5 quote-text">"Atlet hebat terlahir,<br> tetapi atlet luar biasa diciptakan."</h2>
+                      <p class="mt-3 fs-5">— Sebuah pesan untuk menginspirasi generasi penerus.</p>
+                    </div>
+              
+                  </div>
+                </div>
+              </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footers" style="background-color: black; color: white; padding: 20px 0; text-align: center;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="mb-0" style="color: white;font-size:14px;">Copyright &copy; 2025 Bina Satria Pacitan. All rights reserved.</p>
+                        <p class="mb-0" style="color: white;font-size:14px;">Developed by <a href="https://decaa.id" target="_blank" style="color: white; text-decoration: underline;">PT Decaaindo Surya Persada</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>

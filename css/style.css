@@ -1,0 +1,145 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* accordion menu */
+.circle-number {
+  width: 26px;
+  height: 26px;
+  background-color: #f2cc8f;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.accordion-button {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+  border: none;
+  padding-left: 1rem;
+}
+.accordion-button:not(.collapsed) {
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+.accordion-body {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+}
+.accordion-item {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Tahapan Latihan section */
+.content-box {
+    position: relative;
+    padding: 20px 24px 16px 40px; /* Lebih ramping dari sebelumnya */
+    border-radius: 16px;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    min-height: 120px; /* Lebih pendek */
+  }
+
+.training-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .step-box {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding: 20px 30px;
+    border-radius: 16px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.418);
+  }
+  
+  .step-box.left {
+    flex-direction: row;
+  }
+  
+  .step-box.right {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  
+  .circle-numbering {
+    background-color: #f2cc8f;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    margin: 0 20px;
+    flex-shrink: 0;
+  }
+  
+  .step-content {
+    max-width: 900px;
+  }
+
+/* motivation section */
+  .inspirational-section {
+    background: linear-gradient(135deg, #0d1b2a, #253d66); /* dark gradient */
+    padding: 80px 0;
+  }
+  
+  .quote-text {
+    font-family: 'Georgia', serif;
+    line-height: 1.4;
+    color: #f8f9fa;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+    animation: fadeInUp 1.2s ease-in-out both;
+  }
+  
+  .inspirational-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+  }
+
+  .inspirational-section img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7);
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+    /* Responsive behavior */
+    @media (max-width: 768px) {
+        .step-box,
+        .step-box.left,
+        .step-box.right {
+          flex-direction: column;
+          text-align: left;
+        }
+      
+        .circle-numbering {
+          margin-bottom: 10px;
+        }
+      }
+  
+   
